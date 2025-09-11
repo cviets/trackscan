@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: cell_track
+Version: 0.0.1
+Summary: Post-processing and analysis of cell track data
+Author: Chris Viets
+Project-URL: Homepage, https://github.com/cviets/CellTracking
+Project-URL: Bug Tracker, https://github.com/cviets/CellTracking/issues
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
