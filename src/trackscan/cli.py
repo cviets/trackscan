@@ -1,5 +1,5 @@
 import argparse
-from .modules.make_tracks import Tracks
+from .modules.main_cmd import Tracks
 
 def main():
     parser = argparse.ArgumentParser(prog="trackscan", description="Cell track post-processing and analysis")
