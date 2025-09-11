@@ -8,12 +8,6 @@ src/cell_track.egg-info/requires.txt
 src/cell_track.egg-info/top_level.txt
 src/trackscan/__init__.py
 src/trackscan/cli.py
-src/trackscan.egg-info/PKG-INFO
-src/trackscan.egg-info/SOURCES.txt
-src/trackscan.egg-info/dependency_links.txt
-src/trackscan.egg-info/entry_points.txt
-src/trackscan.egg-info/requires.txt
-src/trackscan.egg-info/top_level.txt
 src/trackscan/modules/analysis_utils.py
 src/trackscan/modules/curve_fitting.py
 src/trackscan/modules/io_utils.py
