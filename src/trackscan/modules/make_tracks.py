@@ -10,9 +10,9 @@ import cmd
 import shlex
 
 class Tracks(cmd.Cmd):
-    intro = "Welcome to the cell_track command line interface for cell track post-processing and analysis.\n" \
+    intro = "Welcome to the trackscan command line interface for cell track post-processing and analysis.\n" \
     "Type help or ? to list commands.\n"
-    prompt = "(cell_track) "
+    prompt = "(trackscan) "
 
     def __init__(self, filename: str):
         """
