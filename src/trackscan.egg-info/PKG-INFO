@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: trackscan
-Version: 0.0.1
+Version: 0.0.4
 Summary: Post-processing and analysis of cell track data
 Author: Chris Viets
 Project-URL: Homepage, https://github.com/cviets/trackscan
@@ -9,6 +9,7 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 Requires-Dist: numpy
 Requires-Dist: matplotlib
+Requires-Dist: scipy
 
 <h2 align="center">Track Scan</h2>
 A Python package for post-processing and analyzing cell track data. Includes functionality for correcting automated tracking artifacts, measuring mean squared displacements, and measuring cell turning angles.
