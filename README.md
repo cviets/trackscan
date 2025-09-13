@@ -1,5 +1,8 @@
-<h2 align="center">Track Scan</h2>
+<h2 align="center">TrackScan</h2>
 A Python package for post-processing and analyzing cell track data. Includes functionality for correcting automated tracking artifacts, measuring mean squared displacements, and measuring cell turning angles.
+
+## Introduction
+Trackscan is a Python package that performs post-processing and analysis on 2D cell tracking data by first addressing two types of automated tracking artifacts: splitting and switching artifacts. Splitting artifacts arise from momentary failure in cell detection, e.g., if the cell briefly exits the focal plane, while splitting artifacts occur when two cells' tracks are confused with each other. Both of these artifact types obscure the long-term behavior of individual cells and inject large amounts of inaccuracy into common motility measurements, and must therefore be removed prior to analysis. Trackscan removes automated tracking artifacts by purposefully splitting tracks, then re-linking them in the correct configuration. Specifically, trackscan performs polynomial regression on moving windows of each track's $x(t)$ and $y(t)$ trajectories to determine where to place track splits and how to optimally mend the splits. Trackscan also contains functionality for track de-drifting and measurement of cell motility parameters such as mean squared displacement, turning angle distribution, and cell speed.
 
 ## Cite
 ```bibtex
